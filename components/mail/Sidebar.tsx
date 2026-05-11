@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Mail, Inbox, Star, Send, FileText, AlertTriangle, Trash2, Search, Settings, Users, PenSquare, ChevronDown } from 'lucide-react'
 import { SessionUser } from '@/types'
-import { formatStorageDisplay } from '@/lib/auth'
+import { formatStorageDisplay } from '@/lib/utils'
 
 interface SidebarProps {
   user: SessionUser

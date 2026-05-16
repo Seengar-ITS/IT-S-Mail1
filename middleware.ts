@@ -1,3 +1,4 @@
+// IT-S ID1 auth — deployed 2026-05-16T07:21:31Z
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
